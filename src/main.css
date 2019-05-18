@@ -1,0 +1,7 @@
+label { display: block; }
+label.error span.error { color: red; }
+
+label[data-key="amount"] input { text-align: right; }
+label[data-key="amount"] span.field { position: relative; }
+/* TODO Add body class for currency symbol type */
+label[data-key="amount"] span.field:after { content: "$"; position: absolute; top: 1px; left: 4px; }

@@ -1,4 +1,6 @@
-# succinct
+# Example Wizard Style Web Application using Lit-Html
+
+This repository contains a simple wizard modelling a donation form over multiple steps. It was initialized using the Vue CLI but uses [Lit-Html](https://lit-html.polymer-project.org/) as a view rendering module instead in order to show that carefully composed vanilla JS classes can be more descriptive and succinct than using a third-party framework.
 
 ## Project setup
 ```
@@ -11,18 +13,11 @@ yarn run serve
 ```
 
 ### Compiles and minifies for production
-```
+```sh
 yarn run build
-```
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
+# Also, can analyze the JS bundle after building
+yarn analyze
 ```
 
 ### Customize configuration
